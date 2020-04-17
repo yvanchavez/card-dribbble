@@ -20,13 +20,23 @@ header h4{
     font-size: 30px;
     font-family: lato;
 }
-.card{
+#card1{
     background-image: url(./img/leon.png);
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 200px;
     border-radius: 10px;
+}
+
+#card2{
+    margin-top: 40px;
+    background-image:url(./img/pets.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
 }
 
 .card-oculto{
@@ -49,6 +59,8 @@ header h4{
     padding: 20px 10px;
     display: flex;
     align-content: space-around;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(to bottom, transparent, #0E0D0D);
 }
 
 .card-titulo p{
