@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'lato';
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1800px;
+    margin: 30px auto;
+}
+
+header h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: lato;
+}
+.card{
+    background-image: url(./img/leon.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-oculto{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    opacity: 0;
+    transition: opacity 0.8s ease 0s;
+}
+
+.card-oculto:hover{
+    opacity: 1;
+}
+
+.card-titulo{
+    
+    padding: 20px 10px;
+    display: flex;
+    align-content: space-around;
+}
+
+.card-titulo p{
+    color: white;
+    font-family: lato;
+    font-weight: bold;
+    font-size:18px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.card-link{
+    margin-left: 20px;
+    background-color: #E8E8E8;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: all 1s ease 0s;
+}
+
+
+.card-link:hover{
+    background-color:#EA4D89;
+}
